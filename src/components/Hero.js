@@ -2,7 +2,6 @@ import React from "react"
 
 export default function Hero() {
   return(
-    
     <section className="hero">
         <img src={"./images/photo-grid.png"} className="hero-photo" alt="hero-img" />
         <h1 className="hero-header">Online Experiences</h1>
