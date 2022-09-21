@@ -40,8 +40,8 @@ export default [
     },
     {
         id: 4,
-        title: "Visit Swtizerland",
-        description: "Experience the beautiful Swiss alps and landscape and meet new friends.",
+        title: "Visit Switzerland",
+        description: "Experience the beautiful Swiss alps and amazing landscapes.",
         price: 350,
         coverImg: "lake-thun.png",
         stats: {
