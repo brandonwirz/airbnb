@@ -6,9 +6,15 @@ export default function Card(props) {
  let badgeText
     if (props.openSpots === 0) {
         badgeText = "SOLD OUT"
-    } else if (props.location === "Online") {
+    } else if (props.location === "Online"){
         badgeText = "ONLINE"
     }
+      else if (props.location === "Norway"){
+        badgeText = "NORWAY"
+    }
+      else if (props.location === "Switzerland"){
+        badgeText = "SWITZERLAND"
+ }
  
     return (
       <div className="card">

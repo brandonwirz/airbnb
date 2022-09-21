@@ -17,7 +17,7 @@ export default [
         title: "Learn Wedding Photography",
         description: "Interested in becoming a wedding photographer? For beginner and experienced photographers alike, join us in learning techniques required to leave the happy couple with memories that'll last a lifetime.",
         price: 125,
-        coverImg: "k-zaferes.png",
+        coverImg: "wedding.png",
         stats: {
             rating: 5.0,
             reviewCount: 30
@@ -28,14 +28,27 @@ export default [
     {
         id: 3,
         title: "Group Mountain Biking",
-        description: "Experience the beautiful Norwegian landscape and meet new friends all while conquering rugged terrain on your mountain bike. (Bike provided!)",
-        price: 50,
-        coverImg: "k-zaferes.png",
+        description: "Experience beautiful Norway and meet new friends all while conquering rugged terrain on your mountain bike. (Bike provided!)",
+        price: 220,
+        coverImg: "mountainbike.png",
         stats: {
             rating: 4.8,
             reviewCount: 2
         },
         location: "Norway",
-        openSpots:0,
+        openSpots:8,
+    },
+    {
+        id: 4,
+        title: "Visit Swtizerland",
+        description: "Experience the beautiful Swiss alps and landscape and meet new friends.",
+        price: 350,
+        coverImg: "lake-thun.png",
+        stats: {
+            rating: 8,
+            reviewCount: 9
+        },
+        location: "Switzerland",
+        openSpots:4,
     }
 ]
