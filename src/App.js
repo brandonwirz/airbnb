@@ -17,7 +17,7 @@ export default function App() {
     return(
       <div>
          <Navbar/>
-         <Hero/>
+         <Hero className="hero-img"/>
          <section className="cards-list">
             {cards}
          </section>
